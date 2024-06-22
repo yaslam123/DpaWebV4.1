@@ -40,7 +40,7 @@ const Eservices = () => {
                                 <div className="border-t-2 border-[#BBC0D0]/50 pt-3"></div>
                                 <ul className="mb-10 group-hover:text-white">
                                     <div>
-                                        <img src="/public/assets/images/award1.png" alt="" />
+                                        <img src="" alt="" />
                                     </div>
                                     <li className="flex">
                                         <p className="text-[18px] text-black">
@@ -72,7 +72,7 @@ const Eservices = () => {
                                 <div className="border-t-2 border-[#BBC0D0]/50 pt-3"></div>
                                 <ul className="mb-10 group-hover:text-white">
                                     <div>
-                                        <img src="/public/assets/images/award1.png" alt="" />
+                                        <img src="" alt="" />
                                     </div>
                                     <li className="flex">
                                         <p className="text-[18px] text-black">
@@ -104,7 +104,7 @@ const Eservices = () => {
                                 <div className="border-t-2 border-[#BBC0D0]/50 pt-3"></div>
                                 <ul className="mb-10 group-hover:text-white">
                                     <div>
-                                        <img src="/public/assets/images/award1.png" alt="" />
+                                        <img src="" alt="" />
                                     </div>
                                     <li className="flex">
                                         <p className="text-[18px] text-black">
@@ -137,7 +137,7 @@ const Eservices = () => {
                                 <div className="mt-auto border-t-2 border-[#BBC0D0]/50 pt-3"></div>
                                 <ul className="mb-10 group-hover:text-white">
                                     <div>
-                                        <img src="/public/assets/images/award1.png" alt="" />
+                                        <img src="" alt="" />
                                     </div>
                                     <li className="flex">
                                         <p className="text-[18px] text-black">

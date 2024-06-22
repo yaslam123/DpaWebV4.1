@@ -135,7 +135,7 @@ const Consulting = () => {
                             </div>
                             <ul className="group-hover:text-white">
                                 <div>
-                                    <img src="/public/assets/images/award1.png" alt="" />
+                                    <img src="" alt="" />
                                 </div>
                                 <li className="flex">
                                     <p className="text-[18px] text-white">
@@ -172,9 +172,9 @@ const Consulting = () => {
                                                 <path
                                                     d="M5 8H11M11 8L8 5M11 8L8 11"
                                                     stroke="black"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
+                                                    strokeWidth="1.6"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
                                                 />
                                             </svg>
                                         </div>
@@ -192,9 +192,9 @@ const Consulting = () => {
                                                 <path
                                                     d="M5 8H11M11 8L8 5M11 8L8 11"
                                                     stroke="black"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
+                                                    strokeWidth="1.6"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
                                                 />
                                             </svg>
                                         </div>
@@ -212,9 +212,9 @@ const Consulting = () => {
                                                 <path
                                                     d="M5 8H11M11 8L8 5M11 8L8 11"
                                                     stroke="black"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
+                                                    strokeWidth="1.6"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
                                                 />
                                             </svg>
                                         </div>
@@ -232,9 +232,9 @@ const Consulting = () => {
                                                 <path
                                                     d="M5 8H11M11 8L8 5M11 8L8 11"
                                                     stroke="black"
-                                                    stroke-width="1.6"
-                                                    stroke-linecap="round"
-                                                    stroke-linejoin="round"
+                                                    strokeWidth="1.6"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
                                                 />
                                             </svg>
                                         </div>

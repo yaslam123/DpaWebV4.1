@@ -34,7 +34,7 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Data Protection Basics</h2>
                                             <p className="text-justify text-black">
-                                            Data Protection Basics: is a comprehensive guide aimed at demystifying the essentials of data protection.
+                                                Data Protection Basics: is a comprehensive guide aimed at demystifying the essentials of data protection.
                                             </p>
                                         </div>
                                     </div>
@@ -50,7 +50,7 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Know Your Obligations</h2>
                                             <p className="text-justify text-black">
-                                            This section contains information about the obligations placed on organisations under data protection Authories. 
+                                                This section contains information about the obligations placed on organisations under data protection Authories.
                                             </p>
                                         </div>
                                     </div>
@@ -63,9 +63,12 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">What do you need to know about data</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
+                                                What do you need to know about data
+                                            </h2>
                                             <p className="text-justify text-black">
-                                            This is a critical information that individuals should understand regarding data handling, especially in the context of privacy. 
+                                                This is a critical information that individuals should understand regarding data handling, especially in the
+                                                context of privacy.
                                             </p>
                                         </div>
                                     </div>
@@ -78,9 +81,11 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Direct Marketing: Opt-In and Opt-Out</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
+                                                Direct Marketing: Opt-In and Opt-Out
+                                            </h2>
                                             <p className="text-justify text-black">
-                                            involves emails, texts, calls, and mail. Clear Opt-In and Opt-Out options ensure privacy and legal compliance.
+                                                involves emails, texts, calls, and mail. Clear Opt-In and Opt-Out options ensure privacy and legal compliance.
                                             </p>
                                         </div>
                                     </div>
@@ -112,15 +117,14 @@ const forOrg = () => {
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Education</h2>
                                             <p className="text-justify text-black">
                                                 {' '}
-                                                Educational institutions handle a vast amount of personal data related to students, staff, and faculty. 
-                                               
+                                                Educational institutions handle a vast amount of personal data related to students, staff, and faculty.
                                             </p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className=" flex flex-row p-5">
-                            <a href="/health" className="group flex h-[100%] w-full border-b-2 border-dotted border-gray/30 ">
+                                <a href="/health" className="group flex h-[100%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
@@ -128,15 +132,15 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black"> Health</h2>
                                             <p className="text-justify text-black">
-                                            Healthcare providers must prioritize the confidentiality and security of patient data 
-                                            to maintain trust and comply with legal requirements.
+                                                Healthcare providers must prioritize the confidentiality and security of patient data to maintain trust and
+                                                comply with legal requirements.
                                             </p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className=" flex flex-row p-5">
-                            <a href="/banking" className="group flex h-[100%] w-full border-b-2 border-dotted border-gray/30 ">
+                                <a href="/banking" className="group flex h-[100%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
@@ -144,34 +148,35 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black"> Banking and Finance</h2>
                                             <p className="text-justify text-black">
-                                            The banking and finance sector handles sensitive financial information that requires stringent protection measures.
-
+                                                The banking and finance sector handles sensitive financial information that requires stringent protection
+                                                measures.
                                             </p>
                                         </div>
                                     </div>
                                 </a>
+                            </div>
+                            <div className=" flex flex-row p-5">
+                                <div className=" flex flex-row border-b-2 border-dotted border-gray/30 p-5">
+                                    <a href="/DPIAD" className="group flex w-full">
+                                        <div className="flex w-full flex-row items-start justify-between">
+                                            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
+                                                <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
+                                            </div>
+                                            <div className="flex w-[80%] flex-col">
+                                                <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
+                                                    Data Protection Impact Assessment (DPIA) & Privacy by Design and Default
+                                                </h2>
+                                                <p className="text-justify text-black">
+                                                    DPIA assesses data risks. Privacy by Design ensures minimization, purpose limitation, accuracy, and
+                                                    retention from the start.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            <div className=" flex flex-row p-5">
-                            <div className=" flex flex-row border-b-2 border-dotted border-gray/30 p-5">
-                                <a href="/DPIAD" className="group flex w-full">
-                                    <div className="flex w-full flex-row items-start justify-between">
-                                        <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
-                                            <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
-                                        </div>
-                                        <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
-                                            Data Protection Impact Assessment (DPIA) & Privacy by Design and Default
-                                            </h2>
-                                            <p className="text-justify text-black">
-                                            DPIA assesses data risks. Privacy by Design ensures minimization, purpose limitation, accuracy, and retention from the start.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
                             </div>
                             <div className=" flex flex-row p-5">
-                            <a href="/telecommunications" className="group flex h-[100%] w-full border-b-2 border-dotted border-gray/30 ">
+                                <a href="/telecommunications" className="group flex h-[100%] w-full border-b-2 border-dotted border-gray/30 ">
                                     <div className="flex w-full flex-row items-start justify-between">
                                         <div className="flex h-12 w-12 items-center justify-center rounded-full bg-black transition duration-300 group-hover:rotate-180 group-hover:ease-in-out">
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
@@ -179,7 +184,7 @@ const forOrg = () => {
                                         <div className="flex w-[80%] flex-col">
                                             <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Telecommunications</h2>
                                             <p className="text-justify text-black">
-                                            Telecom companies handle vast amounts of user data, including personal information and communication records.
+                                                Telecom companies handle vast amounts of user data, including personal information and communication records.
                                             </p>
                                         </div>
                                     </div>
@@ -192,9 +197,12 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">E-Governance and Online Data Collection</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
+                                                E-Governance and Online Data Collection
+                                            </h2>
                                             <p className="text-justify text-black">
-                                            E-Governance, or electronic governance, refers to the use of digital technologies and the internet to provide public services, 
+                                                E-Governance, or electronic governance, refers to the use of digital technologies and the internet to provide
+                                                public services,
                                             </p>
                                         </div>
                                     </div>
@@ -207,9 +215,12 @@ const forOrg = () => {
                                             <FaArrowRight style={{ color: 'white', fontSize: '18px' }} />
                                         </div>
                                         <div className="flex w-[80%] flex-col">
-                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">Compliance Checklist for Data Protection & Risk Management</h2>
+                                            <h2 className="text-[20px] font-extrabold text-primary group-hover:text-black">
+                                                Compliance Checklist for Data Protection & Risk Management
+                                            </h2>
                                             <p className="text-justify text-black">
-                                            ensures data law compliance with policy, inventory, consent, rights, security, audits, training, and breach response.
+                                                ensures data law compliance with policy, inventory, consent, rights, security, audits, training, and
+                                                breach response.
                                             </p>
                                         </div>
                                     </div>
@@ -253,9 +264,9 @@ const forOrg = () => {
                                                     <path
                                                         d="M5 8H11M11 8L8 5M11 8L8 11"
                                                         stroke="black"
-                                                        stroke-width="1.6"
-                                                        stroke-linecap="round"
-                                                        stroke-linejoin="round"
+                                                        strokeWidth="1.6"
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
                                                     />
                                                 </svg>
                                             </div>
@@ -273,9 +284,9 @@ const forOrg = () => {
                                                     <path
                                                         d="M5 8H11M11 8L8 5M11 8L8 11"
                                                         stroke="black"
-                                                        stroke-width="1.6"
-                                                        stroke-linecap="round"
-                                                        stroke-linejoin="round"
+                                                        strokeWidth="1.6"
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
                                                     />
                                                 </svg>
                                             </div>
@@ -295,9 +306,9 @@ const forOrg = () => {
                                                     <path
                                                         d="M5 8H11M11 8L8 5M11 8L8 11"
                                                         stroke="black"
-                                                        stroke-width="1.6"
-                                                        stroke-linecap="round"
-                                                        stroke-linejoin="round"
+                                                        strokeWidth="1.6"
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
                                                     />
                                                 </svg>
                                             </div>
@@ -315,9 +326,9 @@ const forOrg = () => {
                                                     <path
                                                         d="M5 8H11M11 8L8 5M11 8L8 11"
                                                         stroke="black"
-                                                        stroke-width="1.6"
-                                                        stroke-linecap="round"
-                                                        stroke-linejoin="round"
+                                                        strokeWidth="1.6"
+                                                        strokeLinecap="round"
+                                                        strokeLinejoin="round"
                                                     />
                                                 </svg>
                                             </div>
