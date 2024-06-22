@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
 
-const DRE = () => {
+const DPIAD = () => {
     const isRtl = useSelector((state: IRootState) => state.themeConfig.direction) === 'rtl' ? true : false;
 
     return (
@@ -20,11 +20,12 @@ const DRE = () => {
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                             <h4>Data Protection Impact Assessment (DPIA) & Privacy by Design and Default</h4>
                             <p className="pt-12 text-lg font-semibold">
-                            Data Rights in E-Commerce empower individuals to control how their data is collected, used, stored, and shared, ensuring a lawful basis for data collection, 
-                            secure processing, purpose limitation, and protection during data transfers. 
-                            The Self-Assessment Checklist helps organizations ensure compliance with data protection laws by listing categories of personal data,
-                             identifying data sources, documenting legal bases for processing, and defining retention periods,
-                              thereby facilitating effective data management and protection.
+                             A Data Protection Impact Assessment (DPIA) evaluates the potential impact of data processing activities on the protection of personal data, 
+                             identifying and mitigating risks before processing begins. It includes a systematic description of processing activities, assessment of necessity and proportionality, 
+                             risk identification, and proposed mitigation measures.
+                             Privacy by Design and Default ensures that data protection principles are integrated into the development and operation of systems and processes from the outset, 
+                             focusing on data minimization, purpose limitation, data accuracy, and retention. These principles help ensure that privacy is built into the core of data management practices.
+
                             </p>
                         </div>
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
@@ -287,4 +288,4 @@ const DRE = () => {
         </div>
     );
 };
-export default DRE;
+export default DPIAD;
