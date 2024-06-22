@@ -48,9 +48,10 @@ jobs:
                   azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_BLUE_MEADOW_03E31FE00 }}
                   repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for GitHub integrations (i.e., PR comments)
                   action: 'upload'
-                  app_location: '.next' # Use the extracted build output
+                  app_location: '.' # Location of the build output directory
                   api_location: '' # Api source code path - optional
-                  output_location: '' # No need to specify again
+                  output_location: '.next' # Built app content directory
+                  skip_app_build: true # Skip the build step in Azure
 
     close_pull_request_job:
         if: github.event_name == 'pull_request' && github.event.action == 'closed'
