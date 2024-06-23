@@ -1,7 +1,3 @@
-import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
@@ -23,19 +19,15 @@ const Health = () => {
                         <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Data Collection and Processing in Health:</h2>
                             <p className="pt-12 text-lg font-semibold">
-                            Patient Records: Personal information, medical history, treatment details.
-                            Operational Data: Staff schedules, financial records, operational metrics.
-                            Digital Health Services: Telemedicine, electronic health records (EHRs), health apps.
-
+                                Patient Records: Personal information, medical history, treatment details. Operational Data: Staff schedules, financial records,
+                                operational metrics. Digital Health Services: Telemedicine, electronic health records (EHRs), health apps.
                             </p>
                         </div>
                         <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Data Collection and Processing in Education:</h2>
                             <p className="pt-12 text-lg font-semibold">
-                            Student Information: Personal details, academic records, health information.
-                            Staff Data: Employment records, performance evaluations, personal contact information.
-                            Learning Platforms: Data generated from online learning tools and platforms.
-
+                                Student Information: Personal details, academic records, health information. Staff Data: Employment records, performance
+                                evaluations, personal contact information. Learning Platforms: Data generated from online learning tools and platforms.
                             </p>
                             <ul>
                                 <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -43,36 +35,22 @@ const Health = () => {
                                         className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                         data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                         data-aos-duration="1000"
-                                    >
-                                        
-                                    </div>
-                                  
+                                    ></div>
                                 </li>
-                              
                             </ul>
                             <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className=" text-[24px] font-extrabold text-black">Best Practices </h2>
-                                <p className="pt-12 text-lg font-semibold">
-                                    
-                                </p>
+                                <p className="pt-12 text-lg font-semibold"></p>
                                 <ul>
                                     <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                         <div
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                         
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Patient Consent: Obtain explicit consent for data collection and processing.
-
-
-
-
-
-
+                                                Patient Consent: Obtain explicit consent for data collection and processing.
                                             </p>
                                         </div>
                                     </li>
@@ -81,12 +59,10 @@ const Health = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                           
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Confidentiality: Ensure patient information is kept confidential and accessed only by authorized personnel.
+                                                Confidentiality: Ensure patient information is kept confidential and accessed only by authorized personnel.
                                             </p>
                                         </div>
                                     </li>
@@ -95,12 +71,10 @@ const Health = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Data Security: Use encryption and secure access controls to protect data.
+                                                Data Security: Use encryption and secure access controls to protect data.
                                             </p>
                                         </div>
                                     </li>
@@ -109,12 +83,10 @@ const Health = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Compliance: Adhere to health data protection regulations (e.g., GDPR, HIPAA).
+                                                Compliance: Adhere to health data protection regulations (e.g., GDPR, HIPAA).
                                             </p>
                                         </div>
                                     </li>
@@ -123,26 +95,22 @@ const Health = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Incident Response: Develop and implement a data breach response plan.
+                                                Incident Response: Develop and implement a data breach response plan.
                                             </p>
                                         </div>
-                                        </li>
-                                        <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
+                                    </li>
+                                    <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                         <div
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Patient Rights: Inform patients about their data rights, including access and correction.
+                                                Patient Rights: Inform patients about their data rights, including access and correction.
                                             </p>
                                         </div>
                                     </li>
@@ -151,8 +119,7 @@ const Health = () => {
                             <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className=" text-[24px] font-extrabold text-black">Benefits:</h2>
                                 <p className="pt-12 text-lg font-semibold">
-                                Protects patient privacy and confidentiality.
-
+                                    Protects patient privacy and confidentiality.
                                     <span className="mt-5">
                                         <br /> Enhances trust between patients and healthcare providers.
                                     </span>{' '}

@@ -1,7 +1,3 @@
-import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
@@ -23,17 +19,15 @@ const Educateion = () => {
                         <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Data Protection and Privacy</h2>
                             <p className="pt-12 text-lg font-semibold">
-                            Educational institutions handle a vast amount of personal data related to students, staff, and faculty. 
-                            Ensuring the protection and privacy of this data is critical.
+                                Educational institutions handle a vast amount of personal data related to students, staff, and faculty. Ensuring the protection
+                                and privacy of this data is critical.
                             </p>
                         </div>
                         <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Data Collection and Processing in Education:</h2>
                             <p className="pt-12 text-lg font-semibold">
-                            Student Information: Personal details, academic records, health information.
-                            Staff Data: Employment records, performance evaluations, personal contact information.
-                            Learning Platforms: Data generated from online learning tools and platforms.
-
+                                Student Information: Personal details, academic records, health information. Staff Data: Employment records, performance
+                                evaluations, personal contact information. Learning Platforms: Data generated from online learning tools and platforms.
                             </p>
                             <ul>
                                 <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -41,30 +35,22 @@ const Educateion = () => {
                                         className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                         data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                         data-aos-duration="1000"
-                                    >
-                                        
-                                    </div>
-                                  
+                                    ></div>
                                 </li>
-                              
                             </ul>
                             <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className=" text-[24px] font-extrabold text-black">Best Practices </h2>
-                                <p className="pt-12 text-lg font-semibold">
-                                    
-                                </p>
+                                <p className="pt-12 text-lg font-semibold"></p>
                                 <ul>
                                     <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                         <div
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                         
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Explicit Consent: Obtain clear consent from students and parents for data collection
+                                                Explicit Consent: Obtain clear consent from students and parents for data collection
                                             </p>
                                         </div>
                                     </li>
@@ -73,12 +59,10 @@ const Educateion = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                           
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Data Minimization: Collect only necessary data for educational purposes.
+                                                Data Minimization: Collect only necessary data for educational purposes.
                                             </p>
                                         </div>
                                     </li>
@@ -87,12 +71,10 @@ const Educateion = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Security Measures: Implement robust security protocols to protect data.
+                                                Security Measures: Implement robust security protocols to protect data.
                                             </p>
                                         </div>
                                     </li>
@@ -101,12 +83,10 @@ const Educateion = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Access Control: Limit access to sensitive information to authorized personnel.
+                                                Access Control: Limit access to sensitive information to authorized personnel.
                                             </p>
                                         </div>
                                     </li>
@@ -115,26 +95,22 @@ const Educateion = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Transparency: Clearly inform students and staff about data usage and rights.
+                                                Transparency: Clearly inform students and staff about data usage and rights.
                                             </p>
                                         </div>
-                                        </li>
-                                        <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
+                                    </li>
+                                    <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                         <div
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Regular Audits: Conduct regular data protection audits to ensure compliance.
+                                                Regular Audits: Conduct regular data protection audits to ensure compliance.
                                             </p>
                                         </div>
                                     </li>
@@ -143,10 +119,7 @@ const Educateion = () => {
                             <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className=" text-[24px] font-extrabold text-black">Benefits:</h2>
                                 <p className="pt-12 text-lg font-semibold">
-                                 Protects student and staff privacy.
-                                
-                               
-
+                                    Protects student and staff privacy.
                                     <span className="mt-5">
                                         <br /> Builds trust within the educational community.
                                     </span>{' '}

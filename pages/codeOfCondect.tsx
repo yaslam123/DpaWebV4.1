@@ -1,7 +1,3 @@
-import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
@@ -23,27 +19,26 @@ const codeofcondect = () => {
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                             {/* <h2 className=" text-[24px] font-extrabold text-black">Introduction</h2> */}
                             <p className="pt-12 text-lg font-semibold">
-                            The Code of Conduct for data protection establishes guidelines and best practices for organizations to ensure lawful,
-                             fair, and transparent data processing, data minimization, accuracy, storage limitation, confidentiality, and accountability. 
-                             Registration requires significant data controllers to register with the Data Protection Authority, providing details such as contact information,
-                              data description, purposes, recipients, and international transfers.
-                             Regular updates and maintenance of a public register help ensure ongoing compliance and transparency.
+                                The Code of Conduct for data protection establishes guidelines and best practices for organizations to ensure lawful, fair, and
+                                transparent data processing, data minimization, accuracy, storage limitation, confidentiality, and accountability. Registration
+                                requires significant data controllers to register with the Data Protection Authority, providing details such as contact
+                                information, data description, purposes, recipients, and international transfers. Regular updates and maintenance of a public
+                                register help ensure ongoing compliance and transparency.
                             </p>
                         </div>
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Code of Conduct</h2>
                         </div>
-                        <p>A Data Protection Code of Conduct helps organizations comply with data protection laws
-                             by setting out guidelines and best practices.</p>
+                        <p>
+                            A Data Protection Code of Conduct helps organizations comply with data protection laws by setting out guidelines and best practices.
+                        </p>
                         <ul>
                             <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                 <div
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                   
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Principles:</h4>
                                     <p className="text-lg font-semibold">⦁ Lawful, fair, and transparent data processing.</p>
@@ -57,13 +52,11 @@ const codeofcondect = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                    
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Benefits:</h4>
-                                    <p className="text-lg font-semibold">⦁	Enhances transparency and accountability.</p>
-                                    <p className="text-lg font-semibold">⦁	Builds trust with data subjects and regulatory bodies.</p>
+                                    <p className="text-lg font-semibold">⦁ Enhances transparency and accountability.</p>
+                                    <p className="text-lg font-semibold">⦁ Builds trust with data subjects and regulatory bodies.</p>
                                 </div>
                             </li>
                             <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -71,12 +64,12 @@ const codeofcondect = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                    
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Registration</h4>
-                                    <p className="text-lg font-semibold">Data controllers of major importance must register with the Data Protection Authority.</p>
+                                    <p className="text-lg font-semibold">
+                                        Data controllers of major importance must register with the Data Protection Authority.
+                                    </p>
                                 </div>
                             </li>
                             <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -84,18 +77,20 @@ const codeofcondect = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                    
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Requirements:</h4>
-                                    <p className="text-lg font-semibold">⦁	Mandatory Registration: Register within six months of qualifying.</p>
-                                    <p className="text-lg font-semibold">⦁	Information Required: Provide details such as name, contact information,
-                                     data description,purposes, recipients, international transfers, risks, and safeguards.</p>
-                                    <p className="text-lg font-semibold">⦁	Annual Updates: Update registration annually.</p>
-                                    <p className="text-lg font-semibold">⦁	Public Register: The Authority will maintain and publish a register.</p>
-                                    <p className="text-lg font-semibold">⦁	Exemptions: Certain data controllers may be exempt based on public interest considerations.</p>
-                                    <p className="text-lg font-semibold">⦁	Effective Date: Obligations commence once the law is in effect.</p>
+                                    <p className="text-lg font-semibold">⦁ Mandatory Registration: Register within six months of qualifying.</p>
+                                    <p className="text-lg font-semibold">
+                                        ⦁ Information Required: Provide details such as name, contact information, data description,purposes, recipients,
+                                        international transfers, risks, and safeguards.
+                                    </p>
+                                    <p className="text-lg font-semibold">⦁ Annual Updates: Update registration annually.</p>
+                                    <p className="text-lg font-semibold">⦁ Public Register: The Authority will maintain and publish a register.</p>
+                                    <p className="text-lg font-semibold">
+                                        ⦁ Exemptions: Certain data controllers may be exempt based on public interest considerations.
+                                    </p>
+                                    <p className="text-lg font-semibold">⦁ Effective Date: Obligations commence once the law is in effect.</p>
                                 </div>
                             </li>
                         </ul>
@@ -566,7 +561,7 @@ const codeofcondect = () => {
                             </li>
                         </ul> */}
                         {/*  */}
-                        
+
                         {/* <ul>
                             <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                 <div
@@ -600,7 +595,7 @@ const codeofcondect = () => {
                             </li>
                         </ul> */}
                         {/*  */}
-                        
+
                         {/* <ul>
                             <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                 <div

@@ -1,17 +1,9 @@
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
-import LogoSlider from '../components/LogoSlider';
-import Testimonial from '../components/Testimonial';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation, Autoplay } from 'swiper';
-import CountUp from 'react-countup';
-import Modal from '../components/Modal';
 import { useState, useRef } from 'react';
-import AnimateHeight from 'react-animate-height';
 import Head from 'next/head';
-import Link from 'next/link';
 import { BiSolidFilePdf } from 'react-icons/bi';
 
 const Procedures = () => {

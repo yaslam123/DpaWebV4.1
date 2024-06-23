@@ -1,6 +1,4 @@
 import { useSelector } from 'react-redux';
-import Link from 'next/link';
-import Head from 'next/head';
 import { IRootState } from '../store';
 import { useRef } from 'react';
 import { PiIdentificationBadgeThin } from 'react-icons/pi';

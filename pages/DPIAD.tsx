@@ -1,7 +1,3 @@
-import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
@@ -20,18 +16,18 @@ const DPIAD = () => {
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                             <h4>Data Protection Impact Assessment (DPIA) & Privacy by Design and Default</h4>
                             <p className="pt-12 text-lg font-semibold">
-                             A Data Protection Impact Assessment (DPIA) evaluates the potential impact of data processing activities on the protection of personal data, 
-                             identifying and mitigating risks before processing begins. It includes a systematic description of processing activities, assessment of necessity and proportionality, 
-                             risk identification, and proposed mitigation measures.
-                             Privacy by Design and Default ensures that data protection principles are integrated into the development and operation of systems and processes from the outset, 
-                             focusing on data minimization, purpose limitation, data accuracy, and retention. These principles help ensure that privacy is built into the core of data management practices.
-
+                                A Data Protection Impact Assessment (DPIA) evaluates the potential impact of data processing activities on the protection of
+                                personal data, identifying and mitigating risks before processing begins. It includes a systematic description of processing
+                                activities, assessment of necessity and proportionality, risk identification, and proposed mitigation measures. Privacy by
+                                Design and Default ensures that data protection principles are integrated into the development and operation of systems and
+                                processes from the outset, focusing on data minimization, purpose limitation, data accuracy, and retention. These principles
+                                help ensure that privacy is built into the core of data management practices.
                             </p>
                         </div>
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Data Protection Impact Assessment (DPIA)</h2>
                             <p className="pt-5 text-lg font-semibold">
-                            DPIAs evaluate the potential impact of data processing activities on personal data protection.
+                                DPIAs evaluate the potential impact of data processing activities on personal data protection.
                             </p>
                         </div>
                         <div className="text-center ltr:lg:text-left rtl:lg:text-right">
@@ -43,11 +39,9 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                    
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
-                                    <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Prior to Processing:  </h4>
+                                    <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">Prior to Processing: </h4>
                                     <p className="text-lg font-semibold">.Conduct DPIAs before high-risk processing.</p>
                                 </div>
                             </li>
@@ -56,9 +50,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                   
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Report Submission: </h4>
                                     <p className="text-lg font-semibold">Submit the DPIA report to the Data Protection Authority..</p>
@@ -69,9 +61,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                  
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Consultation with the Authority:</h4>
                                     <p className="text-lg font-semibold">Consult the Authority if high risk remains..</p>
@@ -82,9 +72,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Data Subject Rights:</h4>
                                     <p className="text-lg font-semibold">Uphold rights like access, rectification, and erasure.</p>
@@ -95,9 +83,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                   
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Data Transfers:</h4>
                                     <p className="text-lg font-semibold">Ensure protection for international transfers.</p>
@@ -108,9 +94,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                  
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Data Breach Notification:</h4>
                                     <p className="text-lg font-semibold">Report breaches to authorities and individuals.</p>
@@ -121,9 +105,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                  
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Privacy Policies:</h4>
                                     <p className="text-lg font-semibold">Provide clear information about data usage.</p>
@@ -145,9 +127,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                    
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <p className="text-lg font-semibold">⦁Develop a comprehensive privacy policy.</p>
                                 </div>
@@ -157,9 +137,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                  
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <p className="text-lg font-semibold">⦁Invest in data management systems.</p>
                                 </div>
@@ -169,9 +147,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                   
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <p className="text-lg font-semibold">⦁Train employees on data protection.</p>
                                 </div>
@@ -181,9 +157,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                    
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <p className="text-lg font-semibold">⦁Monitor and improve practices.</p>
                                 </div>
@@ -205,12 +179,10 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                  
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">
-                                    ⦁Categories of Personal Data and Data Subjects:
+                                        ⦁Categories of Personal Data and Data Subjects:
                                     </h4>
                                     <p className="text-lg font-semibold">List categories and elements of data.</p>
                                 </div>
@@ -220,9 +192,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                    
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Source of Personal Data:</h4>
                                     <p className="text-lg font-semibold">Identify data sources.</p>
@@ -233,9 +203,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                   
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Purposes for Data Processing:</h4>
                                     <p className="text-lg font-semibold">List processing purposes.</p>
@@ -246,9 +214,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                    
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Legal Basis for Processing:</h4>
                                     <p className="text-lg font-semibold">Document legal bases for processing.</p>
@@ -259,11 +225,11 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                   
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
-                                    <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Special Categories of Personal Data:</h4>
+                                    <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">
+                                        ⦁Special Categories of Personal Data:
+                                    </h4>
                                     <p className="text-lg font-semibold">Detail nature and legal basis.</p>
                                 </div>
                             </li>
@@ -272,9 +238,7 @@ const DPIAD = () => {
                                     className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                     data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                     data-aos-duration="1000"
-                                >
-                                   
-                                </div>
+                                ></div>
                                 <div className="lg:w-4/6">
                                     <h4 className="pb-3 text-xl font-extrabold text-black dark:text-white sm:text-2xl">⦁Retention Period:</h4>
                                     <p className="text-lg font-semibold">Define retention periods for each data category.</p>

@@ -1,9 +1,5 @@
-import Testimonial from '../components/Testimonial';
-import Faq from '../components/Faq';
-import CountUp from 'react-countup';
 import dynamic from 'next/dynamic';
 const ReactApexChart = dynamic(() => import('react-apexcharts'), { ssr: false });
-import Link from 'next/link';
 import Head from 'next/head';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';

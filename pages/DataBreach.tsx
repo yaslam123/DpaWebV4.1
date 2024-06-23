@@ -1,7 +1,3 @@
-import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
@@ -412,4 +408,4 @@ const DataBreach = () => {
         </div>
     );
 };
-export default  DataBreach;
+export default DataBreach;

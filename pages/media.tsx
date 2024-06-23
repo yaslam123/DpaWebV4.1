@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import Testimonial from '../components/Testimonial';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 

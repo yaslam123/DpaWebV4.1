@@ -1,7 +1,3 @@
-import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
@@ -20,36 +16,33 @@ const DoyouKnowaboutData = () => {
                     <div className="container">
                         <div className="heading text-center font-normal ltr:lg:text-left rtl:lg:text-right">
                             <h4>What do you need to know about data</h4>
-                            <p className="pt-12 text-lg font-semibold">
-                            They gonna be 4 link inside the top one.
-                            </p>
+                            <p className="pt-12 text-lg font-semibold">They gonna be 4 link inside the top one.</p>
                         </div>
 
                         <div className="group ml-2 mt-5 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
                             <IoIosArrowForward className="" />
                             <a href="/DataTransfer" className="text-blue-600 ml-2 no-underline">
-                            DataTransfer
+                                DataTransfer
                             </a>
                         </div>
                         <div className="ml-2 mt-5 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
                             <IoIosArrowForward className="" />
                             <a href="/Cross-BorderDataTransfers" className="text-blue-600 ml-2 no-underline">
-                            Cross-BorderDataTransfers
+                                Cross-BorderDataTransfers
                             </a>
                         </div>
                         <div className="ml-2 mt-5 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
                             <IoIosArrowForward className="" />
                             <a href="/DRESA" className="text-blue-600 ml-2 no-underline">
-                            DRESA
+                                DRESA
                             </a>
                         </div>
                         <div className="ml-2 mt-5 flex items-center text-[20px] font-semibold text-black/80 underline hover:text-primary">
                             <IoIosArrowForward className="" />
                             <a href="/DataBreach" className="text-blue-600 ml-2 no-underline">
-                            DataBreach
+                                DataBreach
                             </a>
                         </div>
-                     
                     </div>
                 </section>
             </section>

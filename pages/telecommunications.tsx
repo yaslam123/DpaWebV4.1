@@ -1,7 +1,3 @@
-import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
@@ -23,20 +19,15 @@ const telecommunications = () => {
                         <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Telecommunications User Data Protection</h2>
                             <p className="pt-12 text-lg font-semibold">
-                            Telecom companies handle vast amounts of user data, including personal information and communication records. 
-                            Protecting this data is essential for maintaining user trust and compliance
-.
-
+                                Telecom companies handle vast amounts of user data, including personal information and communication records. Protecting this
+                                data is essential for maintaining user trust and compliance .
                             </p>
                         </div>
                         <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Data Collection and Processing in Telecommunications:</h2>
                             <p className="pt-12 text-lg font-semibold">
-                            User Data: Personal details, call records, text messages, internet usage.
-                            Operational Data: Network logs, service usage patterns, billing information.
-                            Customer Service Data: Interaction records, support tickets, feedback.
-
-
+                                User Data: Personal details, call records, text messages, internet usage. Operational Data: Network logs, service usage
+                                patterns, billing information. Customer Service Data: Interaction records, support tickets, feedback.
                             </p>
                             <ul>
                                 <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -44,31 +35,22 @@ const telecommunications = () => {
                                         className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                         data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                         data-aos-duration="1000"
-                                    >
-                                        
-                                    </div>
-                                  
+                                    ></div>
                                 </li>
-                              
                             </ul>
                             <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className=" text-[24px] font-extrabold text-black">Best Practices </h2>
-                                <p className="pt-12 text-lg font-semibold">
-                                    
-                                </p>
+                                <p className="pt-12 text-lg font-semibold"></p>
                                 <ul>
                                     <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                         <div
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                         
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Data Encryption: Encrypt user data to protect it from unauthorized access.
-
+                                                Data Encryption: Encrypt user data to protect it from unauthorized access.
                                             </p>
                                         </div>
                                     </li>
@@ -77,12 +59,10 @@ const telecommunications = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                           
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Access Control: Implement strict access controls and authentication mechanisms.
+                                                Access Control: Implement strict access controls and authentication mechanisms.
                                             </p>
                                         </div>
                                     </li>
@@ -91,12 +71,10 @@ const telecommunications = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Access Control: Implement robust access controls to limit data access to authorized personnel.
+                                                Access Control: Implement robust access controls to limit data access to authorized personnel.
                                             </p>
                                         </div>
                                     </li>
@@ -105,12 +83,10 @@ const telecommunications = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            User Consent: Obtain user consent for data collection and processing activities.
+                                                User Consent: Obtain user consent for data collection and processing activities.
                                             </p>
                                         </div>
                                     </li>
@@ -119,26 +95,10 @@ const telecommunications = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Transparency: Clearly inform users about data usage and their rights.
-                                            </p>
-                                        </div>
-                                        </li>
-                                        <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
-                                        <div
-                                            className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
-                                            data-aos={isRtl ? 'fade-left' : 'fade-right'}
-                                            data-aos-duration="1000"
-                                        >
-
-                                        </div>
-                                        <div className="lg:w-4/6">
-                                            <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Data Minimization: Collect only necessary data and ensure it is used for specified purposes.
+                                                Transparency: Clearly inform users about data usage and their rights.
                                             </p>
                                         </div>
                                     </li>
@@ -147,12 +107,22 @@ const telecommunications = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Incident Management: Develop a data breach response plan to handle security incidents.
+                                                Data Minimization: Collect only necessary data and ensure it is used for specified purposes.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
+                                        <div
+                                            className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
+                                            data-aos={isRtl ? 'fade-left' : 'fade-right'}
+                                            data-aos-duration="1000"
+                                        ></div>
+                                        <div className="lg:w-4/6">
+                                            <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
+                                                Incident Management: Develop a data breach response plan to handle security incidents.
                                             </p>
                                         </div>
                                     </li>
@@ -161,16 +131,15 @@ const telecommunications = () => {
                             <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className=" text-[24px] font-extrabold text-black">Benefits:</h2>
                                 <p className="pt-12 text-lg font-semibold">
-                                Protects user privacy and communication confidentiality.
-
-
+                                    Protects user privacy and communication confidentiality.
                                     <span className="mt-5">
                                         <br /> Enhances trust in telecom services.
                                     </span>{' '}
                                     <span className="mb-5">
                                         {' '}
                                         <br />
-                                        Ensures compliance with telecommunications data protection regulations.<br />
+                                        Ensures compliance with telecommunications data protection regulations.
+                                        <br />
                                     </span>{' '}
                                     {/* <span>
                                         {' '}

@@ -1,10 +1,5 @@
-import Link from 'next/link';
-import CountUp from 'react-countup';
-import ClientSlider from '../components/ClientSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper';
 import 'swiper/css/navigation';
 import 'swiper/css';
 import Head from 'next/head';

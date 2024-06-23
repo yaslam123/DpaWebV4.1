@@ -1,12 +1,8 @@
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import Head from 'next/head';
-import OfficeSwiper from '../components/OfficeSwiper';
-import Lightbox from 'react-18-image-lightbox';
 import 'react-18-image-lightbox/style.css';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
-import Contactus from '../components/ContactUs';
 import { BiSolidFilePdf } from 'react-icons/bi';
 
 const items = [

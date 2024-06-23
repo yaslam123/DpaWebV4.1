@@ -1,7 +1,3 @@
-import Link from 'next/link';
-import Faq from '../components/Faq';
-import Testimonial from '../components/Testimonial';
-import BlogSlider from '../components/BlogSlider';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../store';
 import Head from 'next/head';
@@ -23,19 +19,14 @@ const Banking = () => {
                         <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Banking: Data Security and Compliance</h2>
                             <p className="pt-12 text-lg font-semibold">
-                            The banking and finance sector handles sensitive financial information 
-                            that requires stringent protection measures.
-.
-
+                                The banking and finance sector handles sensitive financial information that requires stringent protection measures. .
                             </p>
                         </div>
                         <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                             <h2 className=" text-[24px] font-extrabold text-black">Data Collection and Processing in Banking:</h2>
                             <p className="pt-12 text-lg font-semibold">
-                            Customer Data: Personal information, account details, transaction history.
-                            Financial Transactions: Payment data, credit card information, loan applications.
-                             Operational Data: Employee records, internal financial data, audit logs.
-
+                                Customer Data: Personal information, account details, transaction history. Financial Transactions: Payment data, credit card
+                                information, loan applications. Operational Data: Employee records, internal financial data, audit logs.
                             </p>
                             <ul>
                                 <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
@@ -43,40 +34,22 @@ const Banking = () => {
                                         className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                         data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                         data-aos-duration="1000"
-                                    >
-                                        
-                                    </div>
-                                  
+                                    ></div>
                                 </li>
-                              
                             </ul>
                             <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className=" text-[24px] font-extrabold text-black">Best Practices </h2>
-                                <p className="pt-12 text-lg font-semibold">
-                                    
-                                </p>
+                                <p className="pt-12 text-lg font-semibold"></p>
                                 <ul>
                                     <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                         <div
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                         
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Data Encryption: Encrypt sensitive financial data during storage and transmission.
-
-
-
-
-
-
-
-
-
-
+                                                Data Encryption: Encrypt sensitive financial data during storage and transmission.
                                             </p>
                                         </div>
                                     </li>
@@ -85,12 +58,10 @@ const Banking = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                           
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Access Control: Implement strict access controls and authentication mechanisms.
+                                                Access Control: Implement strict access controls and authentication mechanisms.
                                             </p>
                                         </div>
                                     </li>
@@ -99,12 +70,10 @@ const Banking = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Fraud Prevention: Use advanced monitoring tools to detect and prevent fraud.
+                                                Fraud Prevention: Use advanced monitoring tools to detect and prevent fraud.
                                             </p>
                                         </div>
                                     </li>
@@ -113,12 +82,10 @@ const Banking = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Compliance: Ensure compliance with financial data protection regulations (e.g., AML, GDPR).
+                                                Compliance: Ensure compliance with financial data protection regulations (e.g., AML, GDPR).
                                             </p>
                                         </div>
                                     </li>
@@ -127,26 +94,22 @@ const Banking = () => {
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-                                            
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Data Minimization: Collect only necessary financial data and limit retention periods.
+                                                Data Minimization: Collect only necessary financial data and limit retention periods.
                                             </p>
                                         </div>
-                                        </li>
-                                        <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
+                                    </li>
+                                    <li className="flex border-t-2 border-dotted border-black/5 py-10 dark:border-gray-dark lg:items-center">
                                         <div
                                             className="text-lg font-extrabold text-secondary ltr:pr-5 rtl:pl-5 sm:pt-0.5 sm:text-xl ltr:sm:pr-12 rtl:sm:pl-12 lg:w-1/6 lg:p-0"
                                             data-aos={isRtl ? 'fade-left' : 'fade-right'}
                                             data-aos-duration="1000"
-                                        >
-
-                                        </div>
+                                        ></div>
                                         <div className="lg:w-4/6">
                                             <p className="pb-3 text-[18px] font-semibold text-black dark:text-white">
-                                            Customer Education: Educate customers about data protection best practices.
+                                                Customer Education: Educate customers about data protection best practices.
                                             </p>
                                         </div>
                                     </li>
@@ -155,10 +118,7 @@ const Banking = () => {
                             <div className="my-10 text-center ltr:lg:text-left rtl:lg:text-right">
                                 <h2 className=" text-[24px] font-extrabold text-black">Benefits:</h2>
                                 <p className="pt-12 text-lg font-semibold">
-                                Enhances data security and reduces the risk of data breaches.
-
-
-
+                                    Enhances data security and reduces the risk of data breaches.
                                     <span className="mt-5">
                                         <br /> Builds customer trust and confidence in financial institutions.
                                     </span>{' '}
